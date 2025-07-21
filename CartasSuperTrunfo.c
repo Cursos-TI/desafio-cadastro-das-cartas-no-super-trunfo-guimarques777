@@ -25,13 +25,13 @@ printf("Você ira usar 2 cartas nessa rodada.\n");
 
 printf("Vamos começar com a primeira carta\n");
 
-printf("Qual a letra do Estado da sua primeira carta?\n");
+printf("Escolha uma letra de A a H para representar o estado de sua primeira carta :\n");
 scanf("%s", estado1);
 
-printf("Qual o código da sua primeira carta?\n");
+printf("Agora junto com a letra de seu estado, escolha um numero de 01 a 04 e forme o codigo de seu estado (exemplo: A02) :\n");
 scanf("%s", codigo1);
 
-printf("Qual o nome da cidade da sua primeira carta?\n");
+printf("Qual o nome da cidade da sua primeira carta\n");
 scanf("%s", cidade1);
 
 printf("Qual o tamanho da população da sua primeira carta?\n");
@@ -48,15 +48,15 @@ scanf("%d", &pontosTuristicos1);
 
 //entrada de dados da segunda carta.
 
-printf("Certo, agora você ira digitar os dados da segunda carta?\n");
+printf("Certo, agora você ira digitar os dados da segunda carta\n");
 
-printf("Qual a letra do Estado da sua segunda carta?\n");
+printf("Escolha outra letra de A a H para representar o estado de sua segunda carta :\n");
 scanf("%s", estado2);
 
-printf("Qual o código da sua segunda carta?\n");
+printf("Agora junto com a letra de seu estado, escolha um numero de 01 a 04 e forme o codigo de seu estado (exemplo: A02) :\n");
 scanf("%s", codigo2);
 
-printf("Qual o nome da cidade da sua segunda carta?\n");
+printf("Qual o nome da cidade da sua segunda carta\n");
 scanf("%s", cidade2);
 
 printf("Qual o tamanho da população da sua segunda carta?\n");
